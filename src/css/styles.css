@@ -110,6 +110,7 @@
 }
 
 .bookmark {
+    cursor: pointer;
     display: flex;
     width: fit-content;
     padding: 0 1rem 0 0;
@@ -126,6 +127,7 @@
     margin-left: .5rem;
     color: rgba(0, 0, 0, .5);
     font-weight: 700;
+    pointer-events: none;
 }
 
 /* stats */
@@ -286,4 +288,19 @@
 .not-allowed {
     pointer-events: none;
     cursor: not-allowed;
+}
+
+footer {
+    opacity: .5;
+    pointer-events: none;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 1.5rem;
+}
+
+footer h1 em {
+    color: red;
 }
