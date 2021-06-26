@@ -11,12 +11,14 @@
 }
 
 ::-webkit-scrollbar {
-    background-color: var(--F-Color);
-    width: .2rem;
+    display: none;
+    /* background-color: var(--F-Color);
+    width: .2rem; */
 }
+/* 
 ::-webkit-scrollbar-thumb {
     background-color: var(--S-Color);
-}
+} */
 
 body {
     max-width: 1440px;
@@ -238,10 +240,12 @@ html {
     margin-top: 7rem;
     text-align: start;
 }
+
 .scrollIntoView {
     animation: View .5s linear;
     -webkit-animation: View 1s linear .5s;
 }
+
 @keyframes View {
     0%, 100% {
         background-color: rgba(0, 0, 0, 0);
