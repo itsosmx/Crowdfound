@@ -35,11 +35,16 @@ async function load(id, start, end, delay, sign) {
 
 
 
+var idsss = document.querySelector('#getStarted')
+
+console.log(idsss.scrollHeight - idsss.clientHeight)
 
 
 function about() {
     var id = document.querySelector('#about')
     id.scrollIntoView()
+
+    // id.classList.add('scrollIntoView')
 }
 
 function getStarted() {
